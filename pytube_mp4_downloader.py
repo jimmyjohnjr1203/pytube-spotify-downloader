@@ -3,9 +3,10 @@ from pytube import Search
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
-client_id = "276b564552244c88927aa2582edf2024"
-client_secret = "d617e72f996b40a4b03f35ad3e1c6a78"
-redirect_url = 'http://example.com'
+# Go to spotify for developers, make a new app and enter your client ID, client Secret and redirect url below.
+client_id = "YOUR_CLIENT_ID"
+client_secret = "YOUR_CLIENT_SECRET"
+redirect_url = 'YOUR_REDIRECT_URI'
 
 scopes = 'playlist-modify-public'
 playlist_uri = input("Paste playlist uri from spotify: ")
